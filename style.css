@@ -1,3 +1,148 @@
-.logo{
-    width: 14%;
-}
+ * {
+     padding: 0;
+     margin: 0;
+ }
+ body{
+    background-color: black;
+ }
+
+ .main {
+     background-image: radial-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("Netflex-Background.jpg");
+     height: 90vh;
+     background-repeat: no-repeat;
+     background-position: center center;
+     background-size: cover;
+     /* background-size: max(1200px,10vw); */
+     /* justify-content: space-between; */
+     position: relative;
+     /* height: 80vh; */
+     width: 100%;
+
+ }
+
+ /* div .background{
+     
+    position: absolute;
+    height: 80vh;
+    width: 100%;
+} */
+ .navbar {
+     display: flex;
+     margin: auto;
+     max-width: 60vw;
+     justify-content: space-between;
+     align-items: center;
+     /* position: absolute; */
+     /* background-color: rgb(206, 169, 240); */
+
+
+ }
+
+ .logo {
+     width: 14%;
+     color: red;
+     position: relative;
+     z-index: 10;
+
+ }
+
+ .button {
+     /* justify-content: space-between; */
+     position: relative;
+     z-index: 10;
+ }
+
+ .sign-in {
+     background-color: rgb(229, 9, 20);
+     color: white;
+     border-radius: 8px;
+     padding-top: 8px;
+     padding-bottom: 8px;
+     padding-left: 20px;
+     padding-right: 20px;
+     cursor: pointer;
+     display: inline-block;
+     width: fit-content;
+     */ justify-content: space-between;
+     /* max-width: 60vw; */
+
+
+ }
+
+ .english {
+     color: blue;
+     margin-left: 12px;
+     justify-content: no-space-between;
+
+ }
+
+ .main-container {
+     width: 100%;
+     height: 90vh;
+     color: white;
+     display: flex;
+     position: relative;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     padding: 2px;
+      
+ }
+
+ .container {
+     font-size: larger;
+     width: 37%;
+     text-align: center;
+     gap: 4px;
+     position: relative;
+ }
+
+ .main-title {
+     font-size: 3em;
+     margin-bottom: 14px;
+     font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+ }
+
+ .main-sub-title {
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 1.3em;
+     margin-bottom: 40px;
+
+ }
+
+ .para {
+     font-size: 0.5;
+
+ }
+
+  .box{
+    
+    flex-direction: row;
+    padding-top: 20px;
+    width: 100%;
+     text-align: left;
+     display: flex;
+     position: relative;
+ 
+     
+  }
+ .get-started {
+     background-color: red;
+     color: white;
+     padding: 10px;
+     border-radius: 10px;
+     padding-right: 30px;
+
+      
+    
+ }
+
+ .email-address{
+    padding: 10px;
+     width: 230px;
+     /* background-color: gray; */
+     border: 2px;
+     border-radius: 2px;
+     border-color: azure;
+     /* border-radius: ; */
+ }
