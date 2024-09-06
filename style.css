@@ -4,9 +4,10 @@
  }
  body{
     background-color: black;
+    height:250vh;
  }
 
- .main {
+ .background {
      background-image: radial-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("Netflex-Background.jpg");
      height: 90vh;
      background-repeat: no-repeat;
@@ -32,8 +33,9 @@
      max-width: 60vw;
      justify-content: space-between;
      align-items: center;
-     /* position: absolute; */
+     position: relative;
      /* background-color: rgb(206, 169, 240); */
+     height: 100px;
 
 
  }
@@ -42,57 +44,67 @@
      width: 14%;
      color: red;
      position: relative;
-     z-index: 10;
+      z-index: 10; 
 
  }
 
  .button {
-     /* justify-content: space-between; */
-     position: relative;
-     z-index: 10;
+     
+     position: relative; 
+       z-index: 10;  
+     color: white; 
+      gap:12px ;
+     max-width: 60vw; 
+     display: flex;
+      
+
  }
 
  .sign-in {
-     background-color: rgb(229, 9, 20);
-     color: white;
-     border-radius: 8px;
-     padding-top: 8px;
-     padding-bottom: 8px;
-     padding-left: 20px;
-     padding-right: 20px;
+     /* background-color: rgb(229, 9, 20); */
+      padding: 6px 17px 10px 19px;
      cursor: pointer;
-     display: inline-block;
-     width: fit-content;
+     /* display: inline-block; */
+     /* width: fit-content; */
      */ justify-content: space-between;
      /* max-width: 60vw; */
+     background-color: rgb(229, 9, 20);
+     border-radius: 5px;
 
 
  }
 
  .english {
-     color: blue;
+    color: white;
+    border: 1px solid gray;
+    /* background-color: rgb(229, 9, 20); */
      margin-left: 12px;
-     justify-content: no-space-between;
+     /* justify-content: no-space-between; */
+     background-color: rgba(23, 23, 23, 0.7);
+     padding: 7px 40px 9px 11px;
+     border-radius: 5px;
 
  }
 
  .main-container {
-     width: 100%;
-     height: 90vh;
+     /* width: %; */
+     /* height: calc(100%-60px); */
+     height: 60%;
      color: white;
      display: flex;
      position: relative;
      align-items: center;
      justify-content: center;
      flex-direction: column;
-     padding: 2px;
+     padding: 50px;
+     text-align: center;
       
  }
 
  .container {
      font-size: larger;
-     width: 37%;
-     text-align: center;
+     width: 40%;
+     /* text-align: center; */
      gap: 4px;
      position: relative;
  }
@@ -112,37 +124,132 @@
 
  .para {
      font-size: 0.5;
+     margin-bottom: 20px;
+     width: 109%;
+     
 
  }
 
   .box{
     
     flex-direction: row;
-    padding-top: 20px;
-    width: 100%;
-     text-align: left;
+    /* padding-top: 20px; */
+    /* width: 100%; */
+     /* text-align: left; */
      display: flex;
      position: relative;
+     font-family: sans-serif;
+     gap: 5px;
  
      
   }
  .get-started {
      background-color: red;
      color: white;
-     padding: 10px;
-     border-radius: 10px;
-     padding-right: 30px;
+      
+     border-radius: 5px;
+     padding: 5px 20px 7px 20px;
+     font-size: 20px;
+     cursor: pointer;
+     text-align: center;
+     border: none;
+    
 
       
     
  }
 
  .email-address{
-    padding: 10px;
-     width: 230px;
-     /* background-color: gray; */
-     border: 2px;
-     border-radius: 2px;
-     border-color: azure;
-     /* border-radius: ; */
+    /* padding: 10px; */
+    padding: 15px 89px 16px 10px;
+     /* width: 230px; */
+     border: 1px solid gray;
+     /* border: 2px solid rgba(23, 23, 23, 0.10);  */
+     border-radius: 4px;
+     color: rgba(255, 255, 255, 0.7);
+     font-size: 16px;
+     font-weight: 400;
+     background-color: rgba(23, 23, 23, 0.7);
+     
+
  }
+ .seperation{
+     height: 5px; 
+    background-color:  rgb(255, 66, 66); 
+    /* width: 180%;
+        left: -40%;
+    transform: translate(calc(-50% + 0.25rem), 0px);
+    background: linear-gradient(0deg, transparent 0%, #6f181d 50%, transparent 100%);
+    position: absolute;
+    top: 0;
+    left: calc(50% - 0.25rem);
+    bottom: 200px;
+    z-index: 2;
+      */
+     
+    
+ }
+ .main-second-container{
+    padding: 0px 0px 0px 47px;
+    /* margin-bottom: 3.5rem; */
+    color: rgb(255, 255, 255);
+
+ }
+
+ .trending {
+     padding: 40px 20px 18px 47px ;
+     box-sizing: border-box;
+    /* font-size: 27px;
+      .poppins-extralight {
+     font-family: "Poppins", system-ui; */
+     font-weight: 200;    
+    /* font-family: sans-serif; */
+     
+ } 
+  /* }   */
+
+  span{
+    padding: 0px 0px 0px 47px;
+    box-sizing: border-box;
+      
+   }
+
+
+ .india{
+    color: white;
+    border: 1px solid gray;
+     
+     margin-left: 12px;
+     /* justify-content: no-space-between; */
+     background-color: rgba(23, 23, 23, 0.7);
+     padding: 10px 37px 13px 8px;
+     border-radius: 5px;
+     font-size: 17px;
+
+ }
+
+ .movies{ 
+    color: white;
+    border: 1px solid gray;
+     margin-left: 10px;
+     /* justify-content: no-space-between; */
+     background-color: rgba(23, 23, 23, 0.7);
+     padding: 11px 40px 13px 8px;
+     border-radius: 5px;
+     font-size: 17px;
+
+
+ }
+ .second-container{
+    height: 40vh;
+    width: 89%;
+    background-color: powderblue;
+    margin-top: 20px;
+    margin-left: 10px;
+    display: flex;
+    /* border-radius: 5px; */
+    position: relative;
+
+ }
+ 
+
